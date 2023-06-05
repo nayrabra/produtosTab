@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 5173;
+const port = 3000;
 
 // Rota para a página inicial
 app.get('/', (_req, _res) => {
@@ -38,5 +38,5 @@ app.delete('/produtos/:id', (_req, _res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Servidor rodando em http://localhost:${port}`);
+  console.log(`Servidor rodando em http://15.228.18.0:${port}`);
 });
