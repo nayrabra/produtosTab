@@ -1,1 +1,1 @@
-# produtosTab
+# Tabela de produtos
